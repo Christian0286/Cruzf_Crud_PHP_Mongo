@@ -1,0 +1,21 @@
+use crud-ckcf;
+
+db.personas.insert({
+    "paterno":"Cruz",
+    "materno":"Flores",
+    "nombre":"Christian Kevin",
+    "fecha":"26-10-2003"
+});
+
+db.createUser({
+    user:"mongoadminn",
+    pwd:"123456",
+    roles:[
+        {
+            role: "readWrite",
+            db: "crud-ckcf"
+        }
+    ]
+})
+
+mongosh -u mongoadminn -p 123456 --authenticationDatabase crud-ckcf
