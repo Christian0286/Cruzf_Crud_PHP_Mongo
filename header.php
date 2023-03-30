@@ -7,7 +7,6 @@
     <link href="./public/bootstrap5/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link href="./public/fontawesome-free-6.3.0-web/css/all.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="./public/css/estilos.css">
-    <title>cruzf_Crud_Php_Mongodb</title>
 </head>
 <body>
     
