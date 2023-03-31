@@ -8,7 +8,7 @@ db.personas.insert({
 });
 
 db.createUser({
-    user:"mongoadminn",
+    user:"adminn",
     pwd:"123456",
     roles:[
         {
@@ -18,4 +18,4 @@ db.createUser({
     ]
 })
 
-mongosh -u mongoadminn -p 123456 --authenticationDatabase crud-ckcf
+mongosh -u adminn -p 123456 --authenticationDatabase crud-ckcf
