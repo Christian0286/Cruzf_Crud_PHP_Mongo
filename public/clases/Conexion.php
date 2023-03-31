@@ -4,7 +4,7 @@ class Conexion{
     public function conectar(){
         try {
         $servidor = "127.0.0.1";
-        $user = "mongoadminn";
+        $user = "adminn";
         $pwd = "123456";
         $db = "crud-ckcf";
         $puerto = "27017";
